@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(function() {
+      $("#b1").click(function() {
+          $('#invisible').toggleClass("show");
+        });  
+      });
+      </script>
+      <script>
+        $(function() {
+      $("#b2").click(function() {
+          $('#invisible1').toggleClass("show");
+        });  
+      });
+      </script>
+      <script>
+        $(function() {
+      $("#b3").click(function() {
+          $('#invisible2').toggleClass("show");
+        });  
+      });
+      </script>
+      <script>
+        $(function() {
+      $("#b4").click(function() {
+          $('#invisible3').toggleClass("show");
+        });  
+      });
+      </script>
+
+<style>
+    .hide{display:none;}
+    .show{display:block;}
+  </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    
+    <link rel="stylesheet" href="./styles/style.css">
+     
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>nazira</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="b1">
+            <p id="b1"onclick="myFunction()">✷</p>
+            <p id="invisible" class="hide">hello</p>
+            <div class="b2">
+                <p id="b2" style="display: none" onclick="myFunction1()">✷</p>
+                <p id="invisible1" class="hide">welcome to my studio</p>
+                <div class="b3">
+                    <p id="b3" style="display: none" onclick="myFunction2()">✷</p>
+                    <p id="invisible2" class="hide">let me tell you something</p>
+                    <div class="b4">
+                        <p id="b4" style="display: none" onclick="myFunction3()">✷</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+
+            <div class="page-main">
+                <a href="#start">   
+                    <div class="page-name">✷entrance</div>
+                </a>
+        
+                <a href="#bottom">
+                    <div class="page-button">✷exit</div>
+                </a>
+
+            </div>
+
+        </div>
+
+       
+    <div class="big">
+            <div class="box1">
+                <div class="gallery1">
+
+                    <div class="gallery1-top-image">
+                        <img src="./imgs/naz-copy.png" alt="">
+                    </div>           
+                </div>
+                <div class="about">
+                    <p id="invisible3" class="hide">
+                        My name is Nazira and I am a graphic designer. I am interested in telling fictional stories by producing posters, websites and graphics.
+                    </p>
+                </div>
+                <a name="start" id="start"></a>
+            </div>
+
+            <div class="box2">
+                <div class="gallery2">
+
+                    <div class="gallery2-image1" id="wrapper1">
+                        <img src="./imgs/жест-01.png" class="imghov1" alt="">
+                        <p class="texthov1">Poster for sign language international day</p>
+                    </div>  
+                    
+
+                    <div class="gallery2-image2" id="wrapper2">
+                        <img src="./imgs/TextBox-13.png" class="imghov2" alt="">
+                        <p class="texthov2">Fictional graphic design studio visuals</p>
+                    </div>           
+                </div>
+
+            </div>
+
+            <div class="box3">
+                <div class="gallery3">
+
+                    <div class="gallery3-image1" id="wrapper3">
+                        <img src="./imgs/posters-04.png" class="imghov3" alt="">
+                        <p class="texthov3">Space calendar tellihg where to find stars in August sky</p>
+                    </div>  
+                    <div class="gallery3-image2" id="wrapper4">
+                        <img src="./imgs/Screenshot 2021-04-30 at 11.10.26.png" class="imghov4" alt="">
+                        <p class="texthov4">Poster for Chris Marker's "Sans Soleil" film </p>
+                    </div>           
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="exit">
+                    <a name="bottom" href="https://www.instagram.com/nvzirv/?hl=ru"> 
+                        <div class="inst">✷instagram: nvzirv</div>
+                    </a> 
+                        
+                        <p class="tg">✷telegram: nvzirv </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
