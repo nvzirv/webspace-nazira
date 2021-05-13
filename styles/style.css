@@ -287,6 +287,12 @@ img {
   top: 75%;
 }
 
+@media (min-width: 900px) {
+  .about {
+    top: 80%;
+  }
+}
+
 .about p {
   color: white;
   padding-left: 20px;
