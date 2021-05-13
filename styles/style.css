@@ -4,15 +4,15 @@ body {
 }
 
 .night {
-  background: #ff8437;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff8437), to(#ffdc15));
-  background: linear-gradient(180deg, #ff8437 0%, #ffdc15 100%);
-}
-
-.day {
   background-color: #637ac1;
   background: -webkit-gradient(linear, left top, left bottom, from(#637ac1), to(#b9cdff));
   background: linear-gradient(180deg, #637ac1 0%, #b9cdff 100%);
+}
+
+.day {
+  background: #ff8437;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff8437), to(#ffdc15));
+  background: linear-gradient(180deg, #ff8437 0%, #ffdc15 100%);
 }
 
 .container {
